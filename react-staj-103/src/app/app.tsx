@@ -6,7 +6,7 @@ type Props = {
 }
 
 
-const Card = (props:Props) => {
+const Card = (props: Props) => {
   // emoji
   // temizleme
   // 2 randevu
@@ -22,9 +22,9 @@ const Card = (props:Props) => {
 const app = () => {
   return (
     <div>
-      <Card emoji="☕" baslik="Americano" aciklama="Orta boy"/>
-      <Card emoji="🍖" baslik="Biftek" aciklama="Büyük boy"/>
-      <Card emoji="🍜" baslik="Ramen" aciklama="Büyük boy"/>
+      <Card emoji="☕" baslik="Americano" aciklama="Orta boy" />
+      <Card emoji="🍖" baslik="Biftek" aciklama="Büyük boy" />
+      <Card emoji="🍜" baslik="Ramen" aciklama="Büyük boy" />
     </div>
   );
 };
