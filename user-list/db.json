@@ -13,5 +13,18 @@
             "name" : "Kadir"
         }
 
+    ],
+    "movies":[
+        {
+            "id" : "1",
+            "text": "GodFather" 
+        },
+        {
+            "id" : "1",
+            "text": "The Matrix" 
+        },{
+            "id" : "1",
+            "text": "The Green Mile" 
+        }
     ]
 }

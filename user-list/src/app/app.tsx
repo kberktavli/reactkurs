@@ -1,9 +1,16 @@
 import { useUsers } from "./useUsers";
+import { useMovies } from "./useMovies";
 //import { useEffect, useState } from "react";
 
 const App = () => {
   const { data: users } = useUsers();
-  return <ul>{users?.map((user) => <li>{user.name}</li>)}</ul>;
+  const { data: movies } = useMovies();
+  return (
+    <>
+      <ul>{users?.map((user) => <li>{user.name}</li>)}</ul>
+      <ul>{movies?.map((movie) => <li>{movie.text}</li>)}</ul>
+    </>
+  );
 };
 export default App;
 
