@@ -19,6 +19,7 @@
     </li>
 </ol>
 <p>You can view your application by visiting <code>http://localhost:3000</code> in your browser.</p>
+<p>Don't forget to check your command line; the correct localhost address will be displayed there.</p>
 
 <h2>📂 Project Structure</h2>
 <p>This repository includes the following React projects and examples:</p>
